@@ -1,3 +1,41 @@
+/*Fonts*/
+/*raleway*/
+/*Universals*/
+* {
+  transition-duration: 0.2s;
+}
+.min-height {
+  min-height: 600px;
+}
+.primary-font {
+  font-family: 'Lobster', serif;
+}
+.secondary-font {
+  font-family: 'Raleway', Sans-Serif;
+}
+.white-text {
+  color: #FFFFFF;
+}
+.orange-text {
+  color: #F8512F;
+}
+.thin-text {
+  font-weight: 300;
+}
+.thick-text {
+  font-weight: 700;
+}
+.orange-bg {
+  background-color: #F8512F;
+}
+.story-text {
+  font-family: lobster;
+  font-size: 100px;
+  color: #F8512F;
+  text-shadow: 2px 2px 5px #000;
+}
+
+
 /*Navbar Styles*/
 
 .navbar-inverse {
@@ -49,4 +87,42 @@
 }
 #farm-bg {
   background-image: url('../img/farm-2.jpg');
+}
+
+/*Story Section*/
+
+.year-text {
+  position: absolute;
+  z-index: 0;
+  color: rgba(0, 0, 0, 0.1);
+  font-size: 200px;
+  font-family: 'Playfair Display', serif;
+}
+.h3, h3 {
+  font-size: 36px;
+}
+.story-padding {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.story-text, h3 {
+  font-weight: bold;
+}
+
+/*Fresno Bee Section*/
+
+.vegetables {
+  background-image: url('../img/food_review.jpg');
+  height: 400px;
+
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 50px;
+}
+#vege-paragraph {
+  font-size: 36px;
+}
+.vege-bg {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
 }
