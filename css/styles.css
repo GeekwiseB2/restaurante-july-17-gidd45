@@ -114,15 +114,36 @@
 .vegetables {
   background-image: url('../img/food_review.jpg');
   height: 400px;
-
   background-attachment: fixed;
   background-size: cover;
   padding-top: 50px;
 }
 #vege-paragraph {
   font-size: 36px;
+  text-shadow: 1px 1px 5px #000;
 }
 .vege-bg {
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 10px;
+}
+
+/*Menu Section Starts*/
+
+#menu {
+  background-image: url('../img/black_linen.png');
+}
+#menu h1 {
+  font-size: 5em;
+}
+.food-item {
+  background-color: #fff;
+  padding: 8px 6px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, #menu .nav-tabs>li>a {
+  color: #F8512F;
+  font-weight: bold;
+}
+#menu .nav-tabs>li>a:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-color: transparent;
 }
